@@ -1,10 +1,10 @@
- Coffee Shop Sales Analysis -- SQL Questions
+## Coffee Shop Sales Analysis -- SQL Questions
 
-## Q1. Yearly Sales Trend
+#### Q1. Yearly Sales Trend
 
 What is the total sales per year?
 
-### Q2. Product Category Sales Performance
+#### Q2. Product Category Sales Performance
 
 What are the total sales grouped by product category?
 
