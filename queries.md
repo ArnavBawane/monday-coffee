@@ -42,7 +42,7 @@ in the last quarter of 2023?
 
 What is the average sales amount per customer in each city?
 
-### Q11. Customer Segmentation by City
+#### Q11. Customer Segmentation by City
 
 How many unique customers are there in each city who have purchased
 coffee products?
