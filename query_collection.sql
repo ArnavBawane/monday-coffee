@@ -1,41 +1,4 @@
-CREATE TABLE city
-(
-	city_id	NUMBER PRIMARY KEY,
-	city_name VARCHAR(15),	
-	population	NUMBER,
-	estimated_rent	FLOAT,
-	city_rank NUMBER
-);
-
-CREATE TABLE customers
-(
-	customer_id NUMBER PRIMARY KEY,	
-	customer_name VARCHAR(25),	
-	city_id NUMBER,
-	CONSTRAINT fk_city FOREIGN KEY (city_id) REFERENCES city(city_id)
-);
-
-
-CREATE TABLE products
-(
-	product_id	NUMBER PRIMARY KEY,
-	product_name VARCHAR(35),	
-	Price float
-);
-
-
-CREATE TABLE sales
-(
-	sale_id	NUMBER PRIMARY KEY,
-	sale_date	date,
-	product_id	NUMBER,
-	customer_id	NUMBER,
-	total FLOAT,
-	rating NUMBER,
-	CONSTRAINT fk_products FOREIGN KEY (product_id) REFERENCES products(product_id),
-	CONSTRAINT fk_customers FOREIGN KEY (customer_id) REFERENCES customers(customer_id) 
-);
-
+--Monday Coffee query_collection
 
 --Q1.
 --Yearly Sales Trend
@@ -327,3 +290,4 @@ City 3: Jaipur
   2. comes in top 3 city by sales
 
 	3.Average sales per customer is better at 11.6k. */
+
