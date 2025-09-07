@@ -1,5 +1,11 @@
 --Monday Coffee query_collection
 
+select * from city;
+SELECT * FROM products;
+SELECT * FROM customers;
+select * from sales;
+
+
 --Q1.
 --Yearly Sales Trend
 --Total sales per year.
@@ -263,16 +269,6 @@ group by p.PRODUCT_NAME,to_char(s.sale_date, 'yyyy-mm')
 order by avg_sales desc;
        
 
-              
-select * from city;
-
-SELECT * FROM products;
-
-SELECT * FROM customers;
-
-select * from sales;
-
-
 
 /*
 -- Recomendation
@@ -290,4 +286,5 @@ City 3: Jaipur
   2. comes in top 3 city by sales
 
 	3.Average sales per customer is better at 11.6k. */
+
 
