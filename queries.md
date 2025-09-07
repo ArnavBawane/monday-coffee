@@ -1,6 +1,6 @@
  Coffee Shop Sales Analysis -- SQL Questions
 
-### Q1. Yearly Sales Trend
+## Q1. Yearly Sales Trend
 
 What is the total sales per year?
 
