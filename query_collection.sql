@@ -325,4 +325,5 @@ City 2: Delhi
 City 3: Jaipur
 	1.Highest number of customers, which is 69.
   2. comes in top 3 city by sales
+
 	3.Average sales per customer is better at 11.6k. */
