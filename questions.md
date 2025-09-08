@@ -21,7 +21,7 @@ How many units of each coffee product have been sold?
 
 What is the total sales per month?
 
-### Q6. Top 3 Cities by Sales
+#### Q6. Top 3 Cities by Sales
 
 Which are the top 3 cities based on total sales?
 
@@ -29,7 +29,7 @@ Which are the top 3 cities based on total sales?
 
 Who are the top 10 customers based on total spend?
 
-### Q8. Peak Sales Day
+#### Q8. Peak Sales Day
 
 Which date had the highest total sales?
 
