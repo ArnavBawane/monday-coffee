@@ -182,13 +182,10 @@ JOIN sales s
   ON s.customer_id = c.customer_id
 group by ci.city_name  
 order by sales_percentage desc;
-  
--- -- Q.13
--- City Population and Coffee Consumers (25%)
--- Provide a list of cities along with their populations and estimated  coffee consumers.
--- return city_name, total current cx, estimated coffee consumers (25%)
--- firs find cofee consumer population with 0.25
---after creat second table with customer we coun total customer per city
+
+--Q13.
+-- City Population vs Coffee Consumers (25%)
+--Provide a list of cities along with their population, total customers, and estimated coffee consumers (25%).
 
 WITH city_table 
 AS
@@ -286,5 +283,6 @@ City 3: Jaipur
   2. comes in top 3 city by sales
 
 	3.Average sales per customer is better at 11.6k. */
+
 
 
